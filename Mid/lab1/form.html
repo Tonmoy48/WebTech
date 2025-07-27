@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+</head>
+<body>
+    <h1> Welcome to the web page</h1>
+    <hr>
+
+    <section>
+        <h2>User Information Form</h2>
+        <form action="table.html" method="post">
+
+        <label for="username">username: </label>
+        <input type="text" id="username" name="username" placeholder="username" minlength="2" maxlength="5" required> <br><br>
+
+        <label for="email">email:</label>
+        <input type="email" id="email" name="email" placeholder="email" required> <br><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" placeholder="password" required> <br><br>
+
+        <label for="dob">date of birth:</label>
+        <input type="date" id="dob" name="dob" required> <br><br>
+
+        <label>gender:</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female <br> <br>
+
+        <label for="file">upload your file:</label>
+        <input type="file" id="file" name="file" accept=".txt, .pdf, .docx"> <br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+
+    </section>
+</body>
+</html>

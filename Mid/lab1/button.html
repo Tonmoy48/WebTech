@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Button</title>
+</head>
+<body>
+    <button onclick="doSomething()" style="font-size: 25px; background-color: aquamarine;" >Login</button>
+    <p id="greeting">Hello</p>
+    <script>
+        function doSomething() {
+            document.getElementById("greeting").innerHTML = "Welcome to the website!";
+            document.getElementById("greeting").style.color = "blue";
+            document.getElementById("greeting").style.fontSize = "30px";
+        }
+    </script>
+</body>
+</html>
