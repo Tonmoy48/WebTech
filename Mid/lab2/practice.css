@@ -1,0 +1,56 @@
+
+    body{
+        background: linear-gradient(skyblue,lightgreen);
+        background-repeat:no-repeat;
+        background-attachment: fixed;
+    }
+    h1{
+     color: white;
+     border-top-style: dotted;
+     border-top-color: white;
+    }
+    #p1{
+      color:red;
+      font-family:Doto;
+      font-weight: bold;
+      border-style: groove;
+      border-width: 5px;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    #p2{
+      color:green;
+    }
+    #p3{
+      color:blue;
+    }
+
+    #box1{
+        border: 5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        height: 150px;
+        width: 250px;
+        /*display: inline-block;
+        margin-left: 400px;*/
+        background-color: aqua;
+        position:sticky;
+        top:0px;
+    }
+
+        #box2{
+        border: 5px solid;
+        border-radius: 5px;
+        padding: 5px;
+        height: 150px;
+        width: 250px;
+        background-color: lightgreen;
+       /* display: inline-block;*/
+       position:absolute;
+    
+    }
+
+    a{
+       color:lawngreen;
+    }
+
